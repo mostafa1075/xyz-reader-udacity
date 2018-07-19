@@ -17,12 +17,18 @@
 
 <resources>
 
+    <!-- fitsSystemWindows source: https://stackoverflow.com/a/29738556-->
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:statusBarColor">@color/colorPrimary</item>-->
+        <!--<item name="android:colorPrimary">@color/colorPrimary</item>-->
+
     </style>
 
 </resources>
